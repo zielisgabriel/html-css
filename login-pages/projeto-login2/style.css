@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(to left , #212121 , #363535);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.login-header {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.input-email-senha section {
+    margin-top: 10px;
+
+}
+
+.email-senha {
+    width: 45vh;
+    padding: 15px;
+    border: none;
+    border-radius: 80px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-email-senha section input {
+    padding-left: 20px;
+}
+
+.esqueci-minha-senha {
+    margin: 15px;
+    font-size: 13px;
+}
+
+.esqueci-minha-senha p {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastrar {
+    margin: 20px;
+}
+
+.botao-de-entrar input {
+    background-color: black;
+    width: 310px;
+    height: 50px;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cadastrar p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cadastrar p a {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botao-de-entrar input:hover {
+    transition: 0.2s;
+    transform: scale(1.03);
+}
+
+.input-email-senha section input {
+    color: black;
+}
+
+.input-email-senha section input:hover {
+    transition: 0.2s;
+    transform: scale(1.01);
+}
+
+.input-email-senha section input:focus {
+    transition: 0.2s;
+    width: 102%;
+}
+
+a:hover {
+    transition: 0.2s;
+    transform: scale(1.03);
+}
